@@ -1,0 +1,94 @@
+.frontf{
+    position: relative;
+    margin-top: 50px;
+    height: 300px;
+    width: 500px;
+    background: linear-gradient(to bottom, rgba(153, 153, 137, 1), rgba(108, 165, 200, 1));
+}
+.back{
+    position: relative;
+    margin-top: 100px;
+    height: 300px;
+    width: 500px;
+    background: linear-gradient(to bottom, rgba(153, 153, 137, 1), rgba(108, 165, 200, 1));
+
+}
+
+.cloud{
+    position:absolute;
+    top: 15px;
+    left: 100px;
+    width: 400px;
+    z-index: 1;
+}
+.title{
+    position: absolute;
+  
+    left: 250px;
+    width: 230px;
+    height: auto;
+    bottom: 120px;
+    z-index: 2;
+}
+.name{
+    position: absolute;
+   
+    left: 280px;
+    z-index: 3;
+    width: 150px;
+    height: auto;
+    bottom: 30px;
+}
+.contact{
+    position: absolute;
+    left: 70px;
+    width: 210px;
+    bottom: 90px;
+    z-index: 4;
+}
+.icons{
+    position: absolute;
+    left: 40px;
+    width: 20px;
+    bottom: 90px;
+    z-index: 5;
+
+}
+.www{
+    position: absolute;
+    left: 40px;
+    width: 20px;
+    bottom: 40px;
+    z-index: 6;
+}
+.web{
+    position: absolute;
+    left: 70px;
+    width: 120px;
+    bottom: 47px;
+    z-index: 7;
+}
+.titleb{
+    position: absolute;
+    top: 140px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 260px;
+    z-index: 2;
+}
+.cloudb{
+    position: absolute;
+    bottom: 0px;
+    width: 300px;
+    margin-bottom: 0px;
+    z-index: 1;
+}
+.logo{
+    position: absolute;
+    display: block;
+    top: 40px;
+     left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    z-index: 3;
+}
